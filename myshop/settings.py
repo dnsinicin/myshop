@@ -125,7 +125,7 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT  =   os.path.join(PROJECT_ROOT, 'staticfiles')
-PROJECT_ROOT   =   os.path.join(os.path.abspath(__file__))
+# PROJECT_ROOT   =   os.path.join(os.path.abspath(__file__))
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'
